@@ -17,6 +17,7 @@ const Footer = () => (
             <EmailIcon/> <a href="mailto:info@dianmed.ru">info@dianmed.ru</a>
         </p>
         </div>
+
     </div>
 )
 
