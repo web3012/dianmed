@@ -33,6 +33,31 @@ const Header = (props) => {
                     svg {
                         display: none;
                     }
+                    html {
+                        height: 100%;
+                    }
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        background: #f1f1f1;
+                        display: flex;
+                        min-height: 100vh;
+                        flex-direction: column;        
+                    }                    
+                    #___gatsby {
+                        min-height: 100vh;
+                    }
+                    #gatsby-focus-wrapper {
+                        display: flex;
+                        min-height: 100vh;
+                        flex-direction: column;        
+                    }
+                    .pageWrapper {
+                        display: flex;
+                        min-height: 100vh;
+                        flex-direction: column;     
+                        justify-content: center;                    
+                    }
                 `
             }]}/>        
         
