@@ -1,0 +1,37 @@
+.intVariants {
+    order: 6;
+    width: 100%;
+    background: #fafafa;
+    min-height: 200px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    div {
+        flex: 1 0 240px;
+        
+        background: #FFD1CB;
+        margin: 10px;
+        padding: 20px;
+        color: #f1f1f1;
+
+        &.p1 {
+            background: #fff;
+            border: 1px solid #333;
+            color: #333;
+        }
+        &.p2 {
+            background: #044175;
+        }
+        &.p3 {
+            background: #EB4634;
+        }
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+}

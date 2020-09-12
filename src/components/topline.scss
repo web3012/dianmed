@@ -1,0 +1,26 @@
+.topline {
+    height: 30px;
+    line-height: 30px;
+    background: #213E70 url(/images/topline-fon.png) repeat-x;
+    text-transform: uppercase;
+    color: #2C86B9;
+
+    a {
+        color: #93DBFF;
+        text-decoration: none;
+
+        &:hover {
+            color: #BCEAFF;
+            text-decoration: underline;
+        }
+
+    }
+    svg { 
+        vertical-align: -10%;
+        font-size: 16px;
+    }
+
+    ._right {
+        text-align: right;
+    }
+}

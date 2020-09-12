@@ -1,0 +1,21 @@
+.pageFooter {
+    height: 200px;
+    background: #044175 url(/images/bottom-fon.png) no-repeat 100% 0;
+    padding: 10px 40px;
+    color: #D3EDFF;
+
+    a {
+        color: #D3EDFF;
+        &:hover {
+            color: #EB4634;
+
+        }
+
+    }
+
+    svg { 
+        vertical-align: -12%;
+        font-size: 16px;
+    }
+
+}

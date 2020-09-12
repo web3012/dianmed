@@ -1,0 +1,61 @@
+{
+  "name": "dianmed",
+  "private": true,
+  "description": "to dianmed.ru",
+  "version": "0.1.0",
+  "author": "Dashiev Ayur <web3012@mail.ru>",
+  "dependencies": {
+    "2gis-maps": "^3.6.1",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "baguettebox.js": "^1.11.1",
+    "esm": "^3.2.25",
+    "gatsby": "^2.20.12",
+    "gatsby-core-utils": "^1.1.4",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-source-graphql": "^2.4.2",
+    "gatsby-source-wordpress": "^3.2.5",
+    "gatsby-transformer-csv": "^2.3.4",
+    "gatsby-transformer-remark": "^2.7.5",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-motion": "^0.5.2",
+    "reset-css": "^5.0.1",
+    "swr": "^0.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

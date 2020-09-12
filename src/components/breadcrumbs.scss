@@ -1,0 +1,25 @@
+.pageBreadcrumbs {
+    font-size: 14px;
+    color: #777;
+
+    .MuiBreadcrumbs-separator {
+        margin: 0 4px;
+    }
+
+    svg { 
+        vertical-align: -10%;
+        font-size: 16px;
+        color: #777;
+    }
+    p {
+        color: #777;
+        font-size: 14px;
+    }
+    a {
+        color: #777;
+        &:hover {
+            color: #EB4634;
+
+        }
+    }
+}

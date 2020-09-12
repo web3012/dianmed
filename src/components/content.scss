@@ -1,0 +1,40 @@
+.pageContent {
+    padding: 0 10px;
+    
+
+    svg { 
+        vertical-align: -10%;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 250%;
+        margin: 10px 0 10px 0;
+        font-weight: normal;
+        line-height: 100%;
+    }
+ 
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        color: #044175;
+        &:hover {
+            color: #EB4634;
+
+        }
+    }
+
+    img {
+        max-width: 100%;
+        
+        @media (min-width: 450px) {
+            max-width: 80%;
+        }
+        @media (min-width: 960px) {
+            max-width: 60%;
+        }
+    }
+
+}

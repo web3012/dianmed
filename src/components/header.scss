@@ -1,0 +1,40 @@
+.pageHeader {
+    display: flex;
+    position: relative;
+    height: 152px;
+    background: #D6DCE5 url(/images/logo-right.png) no-repeat;
+
+    .logotip {
+        display: block;
+        position: absolute;
+        top:18px;
+        left:26px;
+        height:100px;
+        width: 220px;
+        background: rgba(255, 255, 255, 0);
+        h1 {
+            display: none;
+        }
+    }    
+    ._txt {
+        max-width: 300px;
+        flex: 1 0 200px;
+        background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0));
+        margin:25px 20px 25px 410px;
+        padding: 20px;
+
+        p {
+            color: #044175;
+            margin: 0 0 6px 0;
+
+            &.pleft40 {
+                padding-left: 30px;
+            }
+        }
+
+    }
+    ._txt2 {
+        margin:30px 20px 30px 0;
+    }
+
+}

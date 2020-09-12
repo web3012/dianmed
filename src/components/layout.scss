@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background: #f1f1f1;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;        
+
+        #___gatsby {
+            min-height: 100vh;
+            #gatsby-focus-wrapper {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;        
+
+                .pageWrapper {
+                    display: flex;
+                    min-height: 100vh;
+                    flex-direction: column;     
+                    justify-content: center;
+
+                    .pageTopline {
+                        min-width: 240px;
+                        width: 95%;
+                        @media (min-width: 1200px) {
+                            max-width: 1000px;
+                        }        
+                    }
+
+                    .pageMiddle {
+                        display: flex;
+                        flex-direction: column;        
+                        flex-grow: 1;
+                        background: #fff;
+                        padding-left: 0px !important;
+                        padding-right: 0px !important;
+
+
+                        .pageMain {
+                            flex-grow: 1;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            
+                            @media (min-width: 768px) {
+                                flex-direction: row;    
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                            }
+
+                            .pageSidebar {
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 100%;
+                                order: 2;
+                                margin: 0;
+                                justify-content: center;
+
+                                ._block {
+                                    margin: 0 20px 20px 20px;
+                                }
+
+                                @media (min-width: 768px) {
+                                    display: block;
+                                    order: 0;
+                                    flex: 0 0 240px;
+                                    margin: 20px 0 20px 20px;
+
+                                    ._block {
+                                        margin: 0 0 20px 0;
+                                    }
+                                }
+                                        
+                            }
+                            .pageContent {
+                                flex: 1 0 240px;
+                                order: 1;
+                                margin: 20px;
+                            }
+
+                        }
+                        .pageFooter {
+                            min-height: 100px;
+                        }
+
+                        // width -------------------
+                        min-width: 240px;
+                        width: 95%;
+            
+                        // Small devices (landscape phones, 576px and up)
+                        @media (min-width: 576px) {
+                        }
+            
+                        // Medium devices (tablets, 768px and up)
+                        @media (min-width: 768px) {
+                        }
+            
+                        // Large devices (desktops, 992px and up)
+                        @media (min-width: 992px) {
+                        }
+            
+                        // Extra large devices (large desktops, 1200px and up)
+                        @media (min-width: 1200px) {
+                            max-width: 1000px;
+                        }        
+
+
+                    }
+                }
+                        
+            }
+        }
+
+    }
+}

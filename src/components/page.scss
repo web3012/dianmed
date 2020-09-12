@@ -1,0 +1,32 @@
+.pageMiddle {
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    position: relative;
+
+    .shadowLeft {
+        display: none;
+        position: absolute;
+        top:0;
+        left:-10px;
+        width:10px;
+        height:100%;
+        background: url(/images/shadow-left.png) repeat-y 0 0;
+        @media (min-width: 400px) {
+            display: block;
+        }
+    }
+
+    .shadowRight {
+        display: none;
+        position: absolute;
+        top:0;
+        right:-10px;
+        width:10px;
+        height:100%;
+        background: url(/images/shadow-right.png) repeat-y 0 0;
+        @media (min-width: 400px) {
+            display: block;
+        }
+    }
+
+}
