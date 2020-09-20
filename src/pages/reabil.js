@@ -48,8 +48,6 @@ const ReabilPage = () => {
 
             </Sidebar>
 
-            <Variants />
-
         </Layout>
     )
 }
