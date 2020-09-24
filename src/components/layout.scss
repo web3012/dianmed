@@ -4,23 +4,28 @@ html {
     body {
         margin: 0;
         padding: 0;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         background: #f1f1f1;
         display: flex;
         min-height: 100vh;
-        flex-direction: column;        
+        flex-direction: column;
 
         #___gatsby {
             min-height: 100vh;
+
             #gatsby-focus-wrapper {
                 display: flex;
                 min-height: 100vh;
-                flex-direction: column;        
+                flex-direction: column;
+
+                .shtorka {
+                    display: none !important;
+                }
 
                 .pageWrapper {
-                    display: flex;
+                    display: flex !important;
                     min-height: 100vh;
-                    flex-direction: column;     
+                    flex-direction: column;
                     justify-content: center;
 
                     .pageTopline {
@@ -28,17 +33,16 @@ html {
                         width: 95%;
                         @media (min-width: 1200px) {
                             max-width: 1000px;
-                        }        
+                        }
                     }
 
                     .pageMiddle {
-                        display: flex;
-                        flex-direction: column;        
+                        display: flex !important;
+                        flex-direction: column;
                         flex-grow: 1;
                         background: #fff;
                         padding-left: 0px !important;
                         padding-right: 0px !important;
-
 
                         .pageMain {
                             flex-grow: 1;
@@ -47,9 +51,9 @@ html {
                             justify-content: center;
                             align-items: center;
                             flex-direction: column;
-                            
+
                             @media (min-width: 768px) {
-                                flex-direction: row;    
+                                flex-direction: row;
                                 justify-content: flex-start;
                                 align-items: flex-start;
                             }
@@ -76,14 +80,12 @@ html {
                                         margin: 0 0 20px 0;
                                     }
                                 }
-                                        
                             }
                             .pageContent {
                                 flex: 1 0 240px;
                                 order: 1;
                                 margin: 20px;
                             }
-
                         }
                         .pageFooter {
                             min-height: 100px;
@@ -92,30 +94,26 @@ html {
                         // width -------------------
                         min-width: 240px;
                         width: 95%;
-            
+
                         // Small devices (landscape phones, 576px and up)
                         @media (min-width: 576px) {
                         }
-            
+
                         // Medium devices (tablets, 768px and up)
                         @media (min-width: 768px) {
                         }
-            
+
                         // Large devices (desktops, 992px and up)
                         @media (min-width: 992px) {
                         }
-            
+
                         // Extra large devices (large desktops, 1200px and up)
                         @media (min-width: 1200px) {
                             max-width: 1000px;
-                        }        
-
-
+                        }
                     }
                 }
-                        
             }
         }
-
     }
 }

@@ -20,33 +20,34 @@ const Shtorka = () => (<div className="shtorka w"></div>)
 
 const Layout = (props) => {
 
-    let {children} = props
+    let { children } = props
 
     let [init, setInit] = React.useState(false)
 
     React.useEffect(() => {
-        if(!init){
+        if (!init) {
         }
         setInit(true)
     }, [init])
 
     return (
-        <div className="pageWrapper">
-            <CssBaseline/>
-            <Shtorka/>
-            
-            <Topline/>
-            
-            <Page>
-                <Header siteTitle="Дианмед"/>
-                <Menu/>
-                <div className="pageMain">
-                    {children}
-                </div>
-                <Footer/>
-            </Page>
-            
-        </div>
+        <React.Fragment>
+            <Shtorka />
+            <div className="pageWrapper">
+                <CssBaseline />
+                <Topline />
+
+                <Page>
+                    <Header siteTitle="Дианмед" />
+                    <Menu />
+                    <div className="pageMain">
+                        {children}
+                    </div>
+                    <Footer />
+                </Page>
+
+            </div>
+        </React.Fragment>
     )
 }
 

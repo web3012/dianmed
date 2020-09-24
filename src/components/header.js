@@ -23,8 +23,9 @@ const Header = (props) => {
             <Helmet
                 style={[{
                     "cssText": `
-                    #___gatsby {
-                    }
+                        .pageWrapper  {
+                            display: none;
+                        }
                     `
                 }]} />
                 
