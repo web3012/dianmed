@@ -15,7 +15,7 @@ import Typography from '@material-ui/core/Typography'
 
 // disable warning
 import { setConfig } from 'react-hot-loader'
-import { checkPropTypes } from "prop-types"
+
 setConfig({
     showReactDomPatchNotification: false
 })

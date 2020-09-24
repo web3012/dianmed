@@ -18,7 +18,7 @@ const Topline = (props) => {
             <Container maxWidth="md" className="pageTopline">
                 <Grid container spacing={1} direction="row" justify="center" alignItems="center">
                     <Grid item md={6} className="_left">
-                        <a href="/" class="_t"><CallIcon/> Вызвать врача на дом</a>
+                        <a href="/" className="_t"><CallIcon/> Вызвать врача на дом</a>
                     </Grid>
 
                     <Grid item md={6} className="_right">

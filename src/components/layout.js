@@ -16,6 +16,7 @@ import Footer from "./footer"
 //     })
 // }
 
+const Shtorka = () => (<div className="shtorka w"></div>)
 
 const Layout = (props) => {
 
@@ -32,6 +33,8 @@ const Layout = (props) => {
     return (
         <div className="pageWrapper">
             <CssBaseline/>
+            <Shtorka/>
+            
             <Topline/>
             
             <Page>

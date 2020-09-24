@@ -34,11 +34,11 @@ const MainPage = () => {
                 </Block>
                 <Block>
                     <b>Наш адрес</b>
-                    <p>
-                        <div class="txtIconed"><MapIcon /><span>Республика Бурятия,<br/>Улан-Удэ,<br/>пр.Строителей, д.12</span></div>
-                        <div class="txtIconed"><CallIcon /><span>+7 (3012) 45-68-45</span></div>
-                        <div class="txtIconed"><EmailIcon /><span><a href="mailto:info@dianmed.ru">info@dianmed.ru</a></span></div>
-                    </p>
+                    <div>
+                        <div className="txtIconed"><MapIcon /><span>Республика Бурятия,<br/>Улан-Удэ,<br/>пр.Строителей, д.12</span></div>
+                        <div className="txtIconed"><CallIcon /><span>+7 (3012) 45-68-45</span></div>
+                        <div className="txtIconed"><EmailIcon /><span><a href="mailto:info@dianmed.ru" to="mailto:info@dianmed.ru">info@dianmed.ru</a></span></div>
+                    </div>
                     
                     
                 </Block>

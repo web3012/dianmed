@@ -5,7 +5,7 @@ import "./block.scss"
 
 let Block = (props) => {
     return (
-        <div class="_block">
+        <div className="_block">
             {props.children}
         </div>
     )
