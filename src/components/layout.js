@@ -16,7 +16,17 @@ import Footer from "./footer"
 //     })
 // }
 
-const Shtorka = () => (<div className="shtorka w"></div>)
+const Shtorka = () => (
+    <div className="shtorka" style={{
+        width: "100%",
+        background: "#fff",
+        borderLeft: "1px solid #ccc",
+        borderRight: "1px solid #ccc",
+        minHeight: "100vh",
+        maxWidth: "1200px",
+        margin: "0 auto"
+    }}>
+    </div>)
 
 const Layout = (props) => {
 
@@ -47,6 +57,7 @@ const Layout = (props) => {
                 </Page>
 
             </div>
+
         </React.Fragment>
     )
 }
