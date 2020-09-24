@@ -11,7 +11,7 @@ const Breadcrumbs = (props) => {
         <div className="pageBreadcrumbs" style={{ display: "none" }}>
             <Bc aria-label="breadcrumb" separator={<NavigateNextIcon fontSize="small" />}>
                 <Link color="inherit" to="/">
-                    <HomeIcon />&nbsp;Главная
+                    <HomeIcon style={{ fontSize: 14 }}/>&nbsp;Главная
                 </Link>
                 {props.children}
             </Bc>
