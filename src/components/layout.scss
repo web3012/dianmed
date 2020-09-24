@@ -41,6 +41,10 @@ html {
                         padding-right: 0px !important;
                         margin: 0 auto;
 
+                        svg {
+                            font-size: 14px;
+                        }
+
                         .pageMain {
                             flex-grow: 1;
                             display: flex;
