@@ -9,9 +9,9 @@ import HomeIcon from '@material-ui/icons/Home'
 const Breadcrumbs = (props) => {
     return (
         <div className="pageBreadcrumbs" style={{ display: "none" }}>
-            <Bc aria-label="breadcrumb" separator={<NavigateNextIcon fontSize="small" />}>
+            <Bc aria-label="breadcrumb" separator={` / `}>
                 <Link color="inherit" to="/">
-                    <HomeIcon style={{ fontSize: 14 }}/>&nbsp;Главная
+                    Главная
                 </Link>
                 {props.children}
             </Bc>
