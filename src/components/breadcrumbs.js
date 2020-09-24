@@ -1,5 +1,4 @@
 import React from "react"
-import "./breadcrumbs.scss"
 import { Breadcrumbs as Bc } from '@material-ui/core'
 //import Typography from '@material-ui/core/Typography'
 import { Link } from 'gatsby'

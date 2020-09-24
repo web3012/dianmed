@@ -91,6 +91,8 @@ html {
                                 order: 1;
                                 margin: 20px;
                             }
+
+                            @import "breadcrumbs"
                         }
                         .pageFooter {
                             min-height: 100px;
